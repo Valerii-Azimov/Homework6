@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.wraper{
+    width: 1201px;
+    margin: auto;
+    max-width: 100%;
+}
+/* ==============header========== */
+.main_nav a{
+    text-decoration: none;
+    /* outline: 2px solid red; */
+}
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+.main_nav_items{
+    display: flex;
+    list-style: none;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    /* outline: 2px solid red; */
+}
+.main_nav_item{
+    flex-basis: 70px;
+    /* outline: 2px solid red; */
+
+    margin-left: 59px;
+}
+.main_nav_item a{
+    color: rgb(149, 225, 211);
+    /* border-bottom: red; */
+}
+.main_nav_item a:hover{
+    color: rgb(243, 129, 129);
+    border-bottom: 2px solid rgb(243, 129, 129);
+}
+/* ================main============= */
+
+.we_work_with h2{
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    padding-top: 51px;
+    margin: 0px;
+}
+.amazing_services h3{
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-top: 2px;
+    margin: 0;
+}
+.amazing_services{
+    text-align: center;
+}
+.amazing_services::after{
+    display: flex;
+    content: "";
+    width: 60px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 42px;
+    /* margin-bottom: 65px; */
+    background-color: rgb(243, 129, 129);
+}
+.we_work_with_blok{
+    margin-bottom: 65px;
+}
+/* ================we work with================= */
+.menu_amazing_services{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1182px;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 0;
+}
+.menu_amazing_services_item_1::before{
+    float: left;
+    display: block;
+    content: "";
+    width: 31px;
+    height: 31px;
+    background-image: url(/Homework6/img/1.png);
+}
+.menu_amazing_services_item_2::before{
+    float: left;
+    display: block;
+    content: "";
+    width: 31px;
+    height: 31px;
+    background-image: url(/Homework6/img/2.png);
+}
+.menu_amazing_services_item_3::before{
+    float: left;
+    display: block;
+    content: "";
+    width: 31px;
+    height: 31px;
+    background-image: url(/Homework6/img/3.png);
+}
+.menu_amazing_services_item_4::before{
+    float: left;
+    display: block;
+    content: "";
+    width: 31px;
+    height: 31px;
+    background-image: url(/Homework6/img/4.png);
+}
+.menu_amazing_services_item_5::before{
+    float: left;
+    display: block;
+    content: "";
+    width: 31px;
+    height: 31px;
+    background-image: url(/Homework6/img/5.png);
+}
+.menu_amazing_services_item_6::before{
+    float: left;
+    display: block;
+    content: "";
+    width: 31px;
+    height: 31px;
+    background-image: url(/Homework6/img/6.png);
+}
+.menu_amazing_services_blok{
+    width: 339px;
+    /* outline: 2px solid red; */
+    margin-bottom: 100px;
+}
+.menu_amazing_services_item_name{
+    display: block;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-left: 60px;
+}
+.menu_amazing_services_item_text{
+    /* display: inline-block; */
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    margin-left: 60px;
+}
+
+/* ===============who we are============== */
+.general_information_team{
+    max-width: 960px;
+    margin: 0 auto 83px;
+
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+}
+.who_we_are_blok{
+    margin-bottom: 30px;
+}
+.our_team_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.our_team_item{
+        width: 381px;
+        height: 542px;
+        /* position: absolute; */
+}
+.our_team_item_name{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+.our_team_item_profession{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    font-style: italic;
+    line-height: 1.6;
+    text-align: center;
+}
+.our_team_item_cart{
+    position: relative;
+}
+.our_team_item_image{
+    background-color: rgb(149, 225, 211);
+    width: 380px;
+    height: 470px;
+}
+.our_team_foto{
+    position: relative;
+}
+.overlau{
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient( to top, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    position: absolute; top: 0px;
+    opacity: 0;
+}
+.our_team_item_cart:hover .our_team_foto{
+    /* opacity: 0; */
+    transform: translate(-10px, -10px);
+}
+.our_team_item_cart:hover .cart_icon_wrp{
+    opacity: 1;
+}
+.our_team_item_cart:hover .overlau{
+    opacity: 0.9;
+}
+.icon_btn:hover{
+    background-color:rgb(149, 225, 211)
+}
+.icon_btn{
+    border: 1px solid #f9bd87;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(252, 227, 138);
+}
+.cart_icon_wrp{
+    width: 220px;
+    height: 56px;
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    margin: 208px 79px;
+    opacity: 0;
+}
+/* ===============footer=========== */
+.footer{
+    height: 63px;
+    border-top: 1px solid rgb(229, 229, 229);
+    display: flex;
+    justify-content: space-between;
+}
+.footer_info p{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-decoration: none;
+}
+.footer_info{
+    margin-top: 25px;
+    display: block;
+}
+.footer_info a{
+    text-decoration: none;
+}
+.footer_info a:hover{
+    color: rgb(243, 129, 129);
+}
+.subscribe{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgb(149, 225, 211);
+    height: 40px;
+    width: 151px;
+    border-style: none;
+    cursor: pointer;
+}
+.input_email{
+    width: 229px;
+    height: 41px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(204, 204, 204);
+    font-style: italic;
+    line-height: 1.6;
+    margin-top: 11px;
+}
