@@ -17,8 +17,9 @@
 .main_nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 6px;
+    /* padding-top: 6px; */
     margin-top: 28px;
+    align-items: flex-end;
 }
 .main_nav_items{
     display: flex;
@@ -91,6 +92,7 @@
     justify-content: space-between;
     margin: auto;
     padding-left: 0;
+    margin-bottom: 90px;
 }
 .menu_amazing_services_item_1::before{
     float: left;
@@ -140,10 +142,35 @@
     height: 31px;
     background-image: url(/Homework6/img/6.png);
 }
-.menu_amazing_services_blok{
+/* .menu_amazing_services_blok{
     width: 339px;
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
     margin-bottom: 100px;
+} */
+.menu_amazing_services_item_1 {
+    width: 339px;
+    margin-bottom: 100px;
+}
+.menu_amazing_services_item_2 {
+    width: 339px;
+    margin-bottom: 100px;
+}
+.menu_amazing_services_item_2 {
+    width: 339px;
+    margin-bottom: 100px;
+}
+.menu_amazing_services_item_3 {
+    width: 339px;
+    margin-bottom: 100px;
+}
+.menu_amazing_services_item_4 {
+    width: 339px;
+}
+.menu_amazing_services_item_5 {
+    width: 339px;
+}
+.menu_amazing_services_item_6 {
+    width: 339px;
 }
 .menu_amazing_services_item_name{
     display: block;
@@ -184,7 +211,7 @@
 }
 .our_team_item{
         width: 381px;
-        height: 542px;
+        /* height: 542px; */
         /* position: absolute; */
 }
 .our_team_item_name{
@@ -194,6 +221,7 @@
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
+    margin-top: 30px;
 }
 .our_team_item_profession{
     font-size: 15px;
@@ -259,6 +287,7 @@
     border-top: 1px solid rgb(229, 229, 229);
     display: flex;
     justify-content: space-between;
+    margin-top: 90px;
 }
 .footer_info p{
     font-size: 14px;
